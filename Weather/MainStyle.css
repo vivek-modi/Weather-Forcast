@@ -1,0 +1,83 @@
+body {
+  background: linear-gradient(to left, #8243a3, #ca321e);
+}
+
+canvas{
+  margin-left: 210px;
+}
+
+.container {
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+#CurrentValue{
+  color: #ffffff;
+  padding-left: 700px;
+  font-size: 2.5em;
+}
+#CurrentCloud{
+  color: #ffffff;
+  padding-left: 670px;
+  font-size: 1em;
+}
+#CurrentWind{
+  color: #ffffff;
+  padding-left: 670px;
+  font-size: 1em;
+}
+
+#PageName {
+  margin-left: 43%;
+  font: bold 22px Georgia, serif;
+  color: #ffffff;
+}
+
+
+#CityName {
+  border-radius: 25px;
+  outline: none;
+  border: none;
+  width: 620px;
+  height: 40px;
+  padding-left: 20px;
+  margin-left: 110px;
+  background-color: #313131;
+  color: #ffffff;
+
+}
+
+#CityName::placeholder {
+  color: #757575;
+}
+
+.wrapper {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-color: #ffffff;
+  margin-top: 40px;
+  width: 900px;
+  height: 490px;
+ 
+}
+
+div.label {
+  text-align: center;
+}
+
+table,th {
+  height: 150px;
+  width: 640px;
+  color: #ffffff;
+  margin-top: 180px;
+  margin-left: 130px;
+
+}
+
+.row{
+  margin-top: 600px;
+}
