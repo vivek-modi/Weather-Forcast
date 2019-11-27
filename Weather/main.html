@@ -1,0 +1,61 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Weather Forecast</title>
+    <link rel="stylesheet" href="MainStyle.css" />
+    <script type="text/javascript" src="FetchHtml.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+</head>
+
+<body>
+    <div class="cloud">
+   
+        <label id="PageName">Weather Forecast</label>
+
+        <div class="wrapper" id="wrapper">
+            <div id="FirstConatiner">
+                <div class="container">
+                    <input type="text" id="CityName" placeholder="Enter the city name" autofocus></input>
+                    <div class="search" id="WeatherClick"></div>
+                </div>
+
+            </div>
+            <div id="SecondContainer">
+                <br><br>
+                <label id="CurrentValue"></label>
+                <label id="CurrentCloud"></label>
+                <label id="CurrentWind"></label>
+
+                <table id="ClassTable">
+
+                </table>
+            </div>
+        </div>
+        <div class="row"  >
+            <div class="col-sm-12">
+                <div id="details">
+                </div>
+                <div class="row">
+                    <div class="col-sm-12" style="
+        padding-left: 250px;
+    ">
+                        <canvas id="myChart" width="640px" height="640px"
+                            style=" border:1px solid #000000; display: none; ">
+                        </canvas>
+                        <br> <br> <br> <br>
+                        <canvas id="myChartBar" width="640px" height="640px"
+                            style=" border:1px solid #000000; display: none; ">
+                        </canvas>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    </div>
+
+</body>
+
+</html>
